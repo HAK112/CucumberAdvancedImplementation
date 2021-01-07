@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="33.945">
+    <testcase classname="Login functionality" name="Test the redirected page when logged in" time="17.357">
+        <system-out>
+            <![CDATA[Given User navigates to the login page......................................passed
+When User fills the login form with username and password...................passed
+And Clicks on signin button to login........................................passed
+Then User will be navigated to the accountpage..............................passed
+Then page title of the page should have MyAccount...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login functionality" name="Test the logout button exist" time="16.388">
+        <system-out>
+            <![CDATA[Given User navigates to the login page......................................passed
+When User fills the login form with username and password...................passed
+And Clicks on signin button to login........................................passed
+Then User will be navigated to the accountpage..............................passed
+When user hovers on the navbar..............................................passed
+Then logout button will exist on the right side.............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

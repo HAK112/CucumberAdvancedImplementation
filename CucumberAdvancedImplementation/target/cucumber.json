@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test the login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8246499200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the login page",
+            "match": {
+              "location": "stepdefinations.background.Background.user_navigates_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 375978000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User fills the login form with username and password",
+            "match": {
+              "location": "stepdefinations.background.Background.user_fills_the_login_form_with_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2203890800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on signin button to login",
+            "match": {
+              "location": "stepdefinations.background.Background.clicks_on_signin_button_to_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8974100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will be navigated to the accountpage",
+            "match": {
+              "location": "stepdefinations.background.Background.user_will_be_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T20:01:46.115Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6425170300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.background.Background.browserSetup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Test the redirected page when logged in",
+        "description": "",
+        "id": "login-functionality;test-the-redirected-page-when-logged-in",
+        "after": [
+          {
+            "result": {
+              "duration": 69930700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.background.Background.browserClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8034500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "page title of the page should have MyAccount",
+            "match": {
+              "location": "stepdefinations.background.Background.user_will_be_navigated_to_the_my_Account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Test the login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8587925400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the login page",
+            "match": {
+              "location": "stepdefinations.background.Background.user_navigates_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 321980400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User fills the login form with username and password",
+            "match": {
+              "location": "stepdefinations.background.Background.user_fills_the_login_form_with_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1899924800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on signin button to login",
+            "match": {
+              "location": "stepdefinations.background.Background.clicks_on_signin_button_to_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5985800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will be navigated to the accountpage",
+            "match": {
+              "location": "stepdefinations.background.Background.user_will_be_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T20:02:03.485Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5431696000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.background.Background.browserSetup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test the logout button exist",
+        "description": "",
+        "id": "login-functionality;test-the-logout-button-exist",
+        "after": [
+          {
+            "result": {
+              "duration": 46997500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.background.Background.browserClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user hovers on the navbar",
+            "match": {
+              "location": "stepdefinations.background.Background.user_hovers_on_the_navbar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87973800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "logout button will exist on the right side",
+            "match": {
+              "location": "stepdefinations.background.Background.logout_button_will_exist_on_the_right_side()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Background/Background.feature",
+    "tags": []
+  }
+]
